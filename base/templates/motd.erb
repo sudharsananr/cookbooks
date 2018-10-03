@@ -1,0 +1,10 @@
+Hostname: <%= node['fqdn'] %>
+<% if node['lsb']['description'] -%>
+OS Release: <%= node['lsb']['description'] %>
+<% elsif node['platform_family'].eql?('rhel') -%>
+OS Release: Red Hat Enterprise Linux
+<% end -%>
+Kernel: kernel-<%= node['kernel']['release'] %>
+IP Address: <%= node['ipaddress'] %>
+Chef Environment: <%= node.chef_environment %>
+Roles: <%= @rolelist %>
