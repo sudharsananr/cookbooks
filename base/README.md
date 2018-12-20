@@ -1,4 +1,3 @@
 # base
 
-TODO: Enter the cookbook description here.
-
+Base recipes for OS
