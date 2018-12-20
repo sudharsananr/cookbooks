@@ -1,0 +1,30 @@
+{
+  "name": "docker-nginx",
+  "version": "0.3.0",
+  "description": "Installs/Configures docker-nginx",
+  "long_description": "Installs/Configures docker-nginx",
+  "maintainer": "Daniel Ku",
+  "maintainer_email": "kjunine@gmail.com",
+  "license": "MIT",
+  "platforms": {
+  },
+  "dependencies": {
+    "docker": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  }
+}
